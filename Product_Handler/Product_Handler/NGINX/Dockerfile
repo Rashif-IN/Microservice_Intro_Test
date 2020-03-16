@@ -1,13 +1,3 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
-WORKDIR /app
+FROM nginx
 
-COPY *.csproj ./
-RUN dotnet restore
-
-COPY . ./
-RUN dotnet publish  -c Release -o out
-FROM mcr.microsoft.com/dotnet/core/aspnet
-
-WORKDIR /app
-COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "Product_Handler.dll"]
+EXPOSE 2012:80

@@ -1,19 +1,24 @@
 ﻿<Properties StartupConfiguration="{1C345CEE-0042-44A4-8B94-377559780567}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Merchant_Handler/Dockerfile">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Merchant_Handler/Startup.cs">
     <Files>
       <File FileName="Merchant_Handler/Dockerfile" Line="2" Column="16" />
-      <File FileName="Merchant_Handler/Properties/launchSettings.json" />
-      <File FileName="Merchant_Handler/appsettings.json" Line="9" Column="22" />
-      <File FileName="Merchant_Handler/Startup.cs" />
-      <File FileName="Merchant_Handler/Controllers/MerchantController.cs" />
+      <File FileName="Merchant_Handler/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Merchant_Handler/appsettings.json" Line="1" Column="1" />
+      <File FileName="Merchant_Handler/Startup.cs" Line="39" Column="92" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Merchant_Handler" expanded="True">
             <Node name="Merchant_Handler" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -26,5 +31,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Merchant__Handler FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Merchant__Handler PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

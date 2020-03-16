@@ -36,7 +36,7 @@ namespace Merchant_Handler
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<IContext>(option => option.UseNpgsql("Host=pg-docker;Database=microservice1merchant;Username=postgres;Password=docker;"));
+            services.AddDbContext<IContext>(option => option.UseNpgsql("Host=192.168.99.103;Database=microservice1merchant;Username=postgres;Password=docker;Port=5432;"));
             services.AddMvc().AddFluentValidation(opt => opt.RegisterValidatorsFromAssemblyContaining(typeof(PostMerchantCommandValidation)));
             services.AddMediatR(typeof(GetMerchantQueryHandler).GetTypeInfo().Assembly);
 

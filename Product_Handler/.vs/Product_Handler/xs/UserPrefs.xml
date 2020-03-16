@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{D6274C19-786B-45DF-8172-CC8907730E91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Product_Handler/Dockerfile">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Product_Handler/appsettings.json">
     <Files>
-      <File FileName="Product_Handler/Dockerfile" Line="2" Column="13" />
+      <File FileName="Product_Handler/NGINX/Dockerfile" Line="3" Column="15" />
+      <File FileName="Product_Handler/Startup.cs" />
+      <File FileName="Product_Handler/appsettings.json" Line="13" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Product_Handler" expanded="True">
             <Node name="Product_Handler" expanded="True">
-              <Node name="Dockerfile" selected="True" />
+              <Node name="NGINX" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>

@@ -14,7 +14,7 @@
         "outputPath": "/Users/user/Projects/microservice1test/Customer_Handler/Customer_Handler/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/user/.config/NuGet/NuGet.Config"
+          "/Users/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

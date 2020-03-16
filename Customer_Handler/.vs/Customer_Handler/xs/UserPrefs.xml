@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{483D8FB7-25B7-4350-B8BF-5D1FE0F805A0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Customer_Handler/Dockerfile">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Customer_Handler/appsettings.json">
     <Files>
       <File FileName="Customer_Handler/App/Query/BaseDto.cs" Line="23" Column="1" />
-      <File FileName="Customer_Handler/Dockerfile" Line="10" Column="18" />
+      <File FileName="Customer_Handler/Dockerfile" Line="9" Column="1" />
       <File FileName="Customer_Handler/Properties/launchSettings.json" Line="27" Column="71" />
-      <File FileName="Customer_Handler/appsettings.json" />
+      <File FileName="Customer_Handler/appsettings.json" Line="11" Column="111" />
+      <File FileName="Customer_Handler/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,7 @@
               </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Dockerfile" selected="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
             <Node name="docker-compose" expanded="True" />
           </Node>

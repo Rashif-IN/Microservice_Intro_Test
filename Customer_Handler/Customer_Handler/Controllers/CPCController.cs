@@ -15,7 +15,7 @@ namespace cqrs_Test.Presenter.Controller
 {
 
     [ApiController]
-    [Authorize]
+    //[Authorize]
     [Route("customer_pc")]
     public class CPCController : ControllerBase
     {

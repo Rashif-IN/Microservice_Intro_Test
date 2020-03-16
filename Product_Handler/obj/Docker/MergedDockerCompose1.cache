@@ -1,0 +1,37 @@
+services:
+  product_handler:
+    build:
+      context: /Users/user/Projects/microservice1test/Product_Handler
+      dockerfile: Product_Handler/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Product_Handler
+      target: build-env
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44375'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: producthandler:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "bin/Debug/netcoreapp3.1/Product_Handler.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 45787
+      target: 80
+    - published: 44375
+      target: 443
+    tty: true
+    volumes:
+    - /Users/user/Projects/microservice1test/Product_Handler/Product_Handler:/app:rw
+    - /Users/user/vsdbg/vs2017u5:/remote_debugger:rw
+    - /Users/user/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/user/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - /Users/user/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/user/Projects/microservice1test/Product_Handler:/src:rw
+version: '3.4'

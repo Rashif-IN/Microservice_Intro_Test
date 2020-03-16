@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  customerservice:
+    image: rashif24/customerservice
+    deploy:
+      replicas: 2
+    ports:
+      - "9100:80"
+    networks:
+      - networkbaru
+      
+  merchantservice:
+    image: rashif24/merchantservice
+    deploy:
+      replicas: 2
+    ports:
+      - "9200:80"
+    networks:
+      - networkbaru
+      
+  productservice:
+    image: rashif24/productservice
+    deploy:
+      replicas: 2
+    ports:
+      - "9300:80"
+    networks:
+      - networkbaru
+
+  pgdocker:
+     image: postgres:latest
+     environment:
+       POSTGRES_PASSWORD : docker
+     networks:
+       - networkbaru
+     ports:
+       - "5432:5432"
+     
+networks:
+  networkbaru:
+    external: true

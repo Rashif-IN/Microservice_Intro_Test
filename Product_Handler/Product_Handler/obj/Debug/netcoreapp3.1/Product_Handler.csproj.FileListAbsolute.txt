@@ -1,8 +1,3 @@
-/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.csprojAssemblyReference.cache
-/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.MvcApplicationPartsAssemblyInfo.cs
-/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.MvcApplicationPartsAssemblyInfo.cache
-/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.AssemblyInfoInputs.cache
-/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.AssemblyInfo.cs
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/bin/Debug/netcoreapp3.1/mono_crash.42f6ec177.0.json
@@ -44,6 +39,11 @@
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/bin/Debug/netcoreapp3.1/Npgsql.dll
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.csproj.CoreCompileInputs.cache
+/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.MvcApplicationPartsAssemblyInfo.cs
+/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.MvcApplicationPartsAssemblyInfo.cache
+/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.AssemblyInfoInputs.cache
+/Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.AssemblyInfo.cs
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.RazorTargetAssemblyInfo.cache
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/Product_Handler.csproj.CopyComplete
 /Users/user/Projects/microservice1test/Product_Handler/Product_Handler/obj/Debug/netcoreapp3.1/staticwebassets/Product_Handler.StaticWebAssets.Manifest.cache
